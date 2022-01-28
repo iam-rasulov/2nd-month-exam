@@ -1,0 +1,91 @@
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-lits{
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list__link{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-color-black;
+  border-bottom: 3px solid transparent;
+  transition: 0.6s;
+
+  &:hover{
+    border-bottom: 3px solid rgb(255, 255, 129);
+  }
+
+  &:active{
+    border-bottom: 3px solid rgb(255, 255, 129);
+    opacity: 0.8;
+  }
+}
+
+.footer-inner__tel{
+  display: block;
+}
+
+.footer-inner__time{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-inner__time__strong{
+  margin-right: 4px;
+}
+
+.footer-inner__address{
+  width: 157px;
+  display: block;
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(../images/house.svg);
+    background-repeat: no-repeat;
+    top: 2px;
+    left: 1118px;
+  }
+}
+
+.footer-inner__address__link{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: $main-color-black;
+}
+
+.tel__item2{
+  font-family: $main-fonts-futura;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-color-black;
+  transition: 0.6s;
+
+  &:hover{
+    color: $main-link-color;
+  }
+
+  &:active{
+    color: $main-color-black;
+    opacity: 0.6;;
+  }
+}

@@ -1629,6 +1629,7 @@ li {
 .feedback-inner {
   width: 1461px;
   margin: 0 auto;
+  margin-bottom: 247px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1709,5 +1710,112 @@ textarea {
 .form-box__btn:active {
   background-color: #FFBD54;
   opacity: 0.8;
+}
+
+.footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-lits {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list__link {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.footer-list__link:hover {
+  border-bottom: 3px solid #ffff81;
+}
+
+.footer-list__link:active {
+  border-bottom: 3px solid #ffff81;
+  opacity: 0.8;
+}
+
+.footer-inner__tel {
+  display: block;
+}
+
+.footer-inner__time {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-inner__time__strong {
+  margin-right: 4px;
+}
+
+.footer-inner__address {
+  width: 157px;
+  display: block;
+  position: relative;
+}
+
+.footer-inner__address::before {
+  content: "";
+  width: 14px;
+  height: 13px;
+  position: absolute;
+  z-index: 1;
+  background-image: url(../images/house.svg);
+  background-repeat: no-repeat;
+  top: 2px;
+  left: 1118px;
+}
+
+.footer-inner__address__link {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
+.tel__item2 {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.tel__item2:hover {
+  color: #FFBD54;
+}
+
+.tel__item2:active {
+  color: #333333;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
